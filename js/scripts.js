@@ -1,5 +1,3 @@
-console.log("hi!");
-
 $(function(){
 	 
 	var carouselList = setInterval(function changeSlide() {
