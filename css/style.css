@@ -1,0 +1,41 @@
+body {
+	margin: 0;
+}
+
+#carousel {
+	margin: 0 auto;
+	width: 400px;
+	height: 300px;
+	border: solid 2px red;
+	overflow: hidden;
+}
+
+#carousel ul {
+	width: 2000px;
+	margin: 0;
+	padding: 0;
+}
+
+#carousel li {
+	width: 400px;
+	height: 300px;
+	list-style: none;
+	float: left;
+}
+
+#leftArrow {
+	height: 40px;
+	position: absolute;
+	top: 130px;
+	left: 25%;
+	cursor: pointer;
+}
+
+#rightArrow {
+	height: 40px;
+	position: absolute;
+	top: 130px;
+	right: 25%;
+	cursor: pointer;
+}
+
